@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input">
+            <input type="text" placeholder="" id="input" disabled>
+        </div>
+        
+        
+        <div class="body">
+            <table>
+            <tr>
+                <td onclick="input(7)">7</td>
+                <td onclick="input(8)">8</td>
+                <td onclick="input(9)">9</td>
+                <td onclick="input('-')">-</td>
+            </tr>
+            <tr>
+                <td onclick="input(7)">5</td>
+                <td onclick="input(4)">4</td>
+                <td onclick="input(6)">6</td>
+                <td onclick="input('*')">*</td>
+            </tr>
+            <tr>
+                <td onclick="input(1)">1</td>
+                <td onclick="input(2)">2</td>
+                <td onclick="input(3)">3</td>
+                <td onclick="input('/')">/</td>
+            </tr>
+            <tr>
+                <td onclick="input(0)">0</td>
+                <td onclick="input('00')">00</td>
+                <td onclick="input('.')">.</td>
+                <td onclick="input('+')">+</td>
+            </tr>
+            <tr>
+                <td onclick="removeDigit()">C</td>
+                <td onclick="allClear()">AC</td>
+                <td onclick="input('%')">%</td>
+                <td onclick="result()">=</td>
+            </tr>
+        </table>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 100px;
+}
+.container .body{
+    border-radius: 10px;
+}
+.container input{
+    padding: 50px;
+    border: none;
+    outline: none;
+    text-align: right;
+    font-size: 20px;
+    width: 100%;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.body table {
+    text-align: center;
+    width: 100%;
+    background-color: yellow;
+    
+}
+table td{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 50px;
+}
+table td:hover{
+    background-color: rgba(0, 0, 0, 0.786);
+}
+table td:active{
+    background-color: yellowgreen;
+    color: black;
+}
