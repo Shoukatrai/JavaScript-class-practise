@@ -1,4 +1,14 @@
+.smallText{
+    font-size: 20px;
+}
 
+.bigText{
+    font-size: 50px;
+}
+.commanClass{
+    color: red;
+    background-color: black;
+}
 
 
 
