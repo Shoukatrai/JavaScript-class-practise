@@ -59,14 +59,42 @@
 // }
 
 
-var para =  document.getElementById("para")
-function inputBlur(ele){
-    if(ele.value.length < 3){
-        ele.style.outline = "none";
-        ele.style.border = "1px solid red";
-        para.innerHTML = "Enter your correct name!"
-        // para.innerHTML.style.color = "red";
+function inputFocus(inputele){
+    inputele.style.outline = "none"
+    inputele.style.border = "1px solid green"
+}
+
+
+
+
+function inputValidate(inputEle){
+    
+    var nameError = document.getElementById("nameError");
+    if(inputEle.value.length < 3){
+        inputEle.style.outline = "none";
+        inputEle.style.border = "1px solid red";    
+        nameError.style.display = "block";
+        nameError.innerHTML= "Enter Correct Name!";
     }else{
-        
+        inputEle.style.border = "1px solid green";
+        nameError.style.display = "none";
+    }
+}
+
+
+function formSubmitted(){
+    var input = document.getElementById("input");
+    var nameError = document.getElementById("nameError")
+
+    if(input.value.length < 3){
+        input.style.outline = "none";
+        input.style.border = "1px solid red";
+        nameError.style.display = "block";
+        nameError.style.color = "red";
+        nameError.innerHTML = "Enter Correct Name!";
+    }else{
+        nameError.innerHTML = "FORM SUBMITTED";
+        nameError.style.display = "block";
+        nameError.style.color = "green";
     }
 }

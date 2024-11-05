@@ -11,9 +11,24 @@
     <!-- <a href="javascript:void(0)" onclick="foo()">Click Link</a> -->
     
     <!-- <img src="./Images/game1.png" alt="" onmouseover="game('in',this)" onmouseout="game('out',this)"> -->
+<!-- 
+<input type="text" placeholder="Enter your name!"
+onfocus="inputFocus(this)"
+onblur="inputValidate(this)"
+ >
+<p id="nameError">Enter your valid name.</p> -->
 
-<input type="text" placeholder="Enter your name!" onblur="inputBlur(this)">
-<p id="para"></p>
+
+
+
+
+<input type="text" placeholder="Enter your name!"
+onfocus="inputFocus(this)"
+onblur="inputValidate(this)" id="input">
+
+<p id="nameError"></p>
+<button onclick="formSubmitted()">SUBMIT</button>
+
 
 
 </body>
