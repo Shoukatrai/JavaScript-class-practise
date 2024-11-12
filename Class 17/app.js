@@ -14,15 +14,39 @@
 // var para3 = para4.previousElementSibling;
 // console.log(para3)
 
-var parent = document.querySelector("#parent")
+// var parent = document.querySelector("#parent")
 // console.log("parent", parent.children)
 // console.log("parent", parent.childNodes)
 // console.log("para1", parent.firstElementChild)
 // console.log("para2", parent.firstElementChild.nextElementSibling)
 // console.log("para3", parent.firstElementChild.nextElementSibling.nextElementSibling)
 // console.log("para4", parent.firstElementChild.nextElementSibling.nextElementSibling.nextElementSibling)
-console.log("para4", parent.lastElementChild)
+// console.log("para4", parent.lastElementChild)
 
+
+
+// var para1 = document.querySelector(".para1")
+// console.log(para1)
+// function getValue(){
+//     var image = document.querySelector("#pic")
+//     console.log(image.value)
+// }
+
+// function setValue(){
+//     var image = document.querySelector("#pic")
+//     image.value = "";
+// }
+
+
+
+// var parent = document.getElementById("parent");
+// var elemnt = document.createElement("h1");
+// var txt = document.createTextNode("Hello Shoukat");
+// elemnt.appendChild(txt);
+// parent.appendChild(elemnt);
+
+// elemnt.innerHTML = "Hello Shoukat"
+// parent.append(elemnt);
 
 
 
