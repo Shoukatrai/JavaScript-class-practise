@@ -1,0 +1,10 @@
+i{
+    cursor: pointer;
+    opacity: 0.7;
+}
+i:hover{
+    opacity: 1;
+}
+i:active{
+    color: white;
+}
