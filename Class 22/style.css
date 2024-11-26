@@ -1,0 +1,36 @@
+.caontainer{
+    border: 2px solid green;
+    width: 60%;
+    margin: 50px auto;
+}
+
+.caontainer .header{
+    background-color: aqua;
+    padding: 20px;
+}
+
+li{
+    background-color: lightblue;
+    padding: 10px;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+li:hover{
+    border: 1px solid black;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#submitBtn{
+    display: none;
+}
+
+button{
+    cursor: pointer;
+}
