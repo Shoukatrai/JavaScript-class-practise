@@ -1,6 +1,6 @@
 // console.log("app.js")
 
-
+//javascript modules
 
 // import name  from "./script.js";
 // console.log(name)
